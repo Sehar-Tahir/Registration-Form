@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box1 {
+    height: 550px;
+    width: 400px;
+    background-color: #E9F8E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 0 gray;
+}
+
+.side-img {
+    height: 300px;
+    cursor: pointer;
+}
+
+.box2 {
+    height: 550px;
+    width: 400px;
+    background-color: #FCFEFF;
+    border-radius: 10px 0 0px 0px;
+    box-shadow: 10px 10px 10px 0px gray,
+        -3px 0 5px 0 rgb(211, 211, 211);
+}
+
+.content {
+    margin: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.leaf {
+    height: 30px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+h4 {
+    margin-top: 6px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.account {
+    margin-top: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #37474F;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.inputs {
+    margin-top: 14px;
+    position: relative;
+
+}
+
+label {
+    font-family: Arial;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #999999;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 104%;
+    box-sizing: border-box;
+    border: 2px solid #999999;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    padding: 12px 40px;
+    margin: 6px 0;
+    display: inline-block;
+    opacity: 0.7;
+    max-height: max-content;
+}
+
+input[type=email] {
+    width: 104%;
+    box-sizing: border-box;
+    border: 2px solid #999999;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    padding: 12px 40px;
+    margin: 6px 0;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+input[type=password] {
+    width: 104%;
+    max-height: 60;
+    box-sizing: border-box;
+    border: 2px solid #999999;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    padding: 12px 40px;
+    margin: 6px 0;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.inputs i {
+    position: absolute;
+    left: 24px;
+    top: 34px;
+    color: #b9b9b9;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.signin {
+    background-color: #73895D;
+    width: 104%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 12px 40px;
+    margin-top: 25px;
+    display: inline-block;
+    border: none;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.signin:hover {
+    cursor: pointer;
+    background-color: #324220;
+}
+
+.or {
+    margin-top: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #999999;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 0.75rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.s-img {
+    height: 30px;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.s-img:hover {
+    padding: 7px;
+}
+
+p {
+    text-align: center;
+    font-family: Arial;
+    color: #999999;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+p a {
+    text-decoration: none;
+    color: #73895D;
+    padding-left: 3px;
+    cursor: pointer;
+}
+
+p a:hover {
+    color: #324220;
+}
